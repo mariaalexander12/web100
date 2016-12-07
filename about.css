@@ -1,0 +1,112 @@
+/*hello*/
+.subtitle{
+	text-transform: uppercase;
+	font: 2em sans-serif;
+	font-family: 'Raleway', sans-serif;
+	display:block; 
+	width:600px;
+	margin:left;
+	padding-top: 90px;
+	padding-left: 50px;
+	float: left;
+	position: static;
+}
+
+p{
+	text-transform: none;
+	font: 1em solid ;
+	color: grey;
+	font-family: 'Droid Serif', serif;
+
+}
+
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+}
+
+
+li {
+    float: right;
+}
+
+li a {
+   display: block;
+   color: black;
+   text-align: center;
+   padding: 24px 47px;
+   text-decoration: none;
+   font-family: 'Raleway', sans-serif;
+   font-size: 18px;
+   position: relative;
+}
+
+
+
+a:hover:after {
+ width: 100%;
+}
+
+a:hover {
+   color: #737373;
+   text-decoration: none;
+}
+
+a:visited {
+ color: #000; 
+}
+
+a:visited:hover {
+ color: #737373; 
+}
+
+a:visited {
+ color: #000; 
+}
+
+
+
+.image img{
+	width: 30%;
+	position:absolute;
+	margin-right: 10px;
+	top:1200px;
+	
+}
+
+
+
+.container{	
+	position:relative;
+	bottom:0%;
+	left:10%;
+
+}	
+
+
+.container2{
+	position: absolute;
+	left:2%;
+	top:120%;
+	clear:right;
+}
+
+
+.footer{
+	padding-right: 100px;
+	padding-left: 50px;
+	background-color: #494945;
+	text-align: center;
+	padding-bottom: 100px;
+	color: white;
+	padding-top: 100px;
+	margin-right: -10px;
+	margin-left: -10px;
+	font-family: 'Raleway';
+}
+
+
+
+
